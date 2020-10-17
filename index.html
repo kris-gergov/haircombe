@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css" />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="css/icon.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="shortcut icon" type="image/png" href="img/SVG/scissors.svg">
+
+    <title>Haircombe &mdash; Blackheath</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="navigation">
+                <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+                <label for="navi-toggle" class="navigation__button">
+                    <span class="navigation__icon">&nbsp;</span>
+                </label>
+                <div class="navigation__background">&nbsp;</div>
+                <nav class="navigation__nav">
+                    <ul class="navigation__list" id="js-menu">
+                        <li class="navigation__item"><a href="#about" class="navigation__link">About us</a></li>
+                        <li class="navigation__item"><a href="#information" class="navigation__link">Services</a></li>
+                        <li class="navigation__item"><a href="#information" class="navigation__link">Opening hours</a></li>
+                        <li class="navigation__item"><a href="#clients" class="navigation__link">Gallery</a></li>
+                        <li class="navigation__item"><a href="#reviews" class="navigation__link">Reviews</a></li>
+                        <li class="navigation__item"><a href="#contact" class="navigation__link">Contact us</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header__text-box">
+                <h1 class="heading-primary">
+                    <span class="heading-primary--main">Haircombe</span>
+                    <span class="heading-primary--sub">
+                        <span>76 Westcombe Hill, </span>
+                        <span> London SE3 7DT</span>
+                    </span>
+                </h1>
+            </div>
+            <div>&nbsp;</div>
+        </header>
+
+        <main>
+            <div class="about" id="about">
+                <h2 class="heading-secondary">About us</h2>
+                <p class="about__text">
+                    Established in 2001, Haircombe has been a family-business from the start. We have built a reputation
+                    of giving the best quality service along with a warm welcome and a feel at home atmoshpere. Our team
+                    of experienced barbers will offer you the best service you can get. Besides a perfect haircut,
+                    clients can also have a luxury straight razor wet shave or a classic beard and mustache treatment.
+                </p>
+            </div>
+
+
+            <div class="information" id="information">
+                <section class="services">
+                    <h2 class="heading-secondary">Services</h2>
+                    <div class="services__box">
+                        <ul class="list list-left">
+                            <li class="list__item list__item-left">Dry cut</span></li>
+                            <li class="list__item list__item-left">Clipper cut</li>
+                            <li class="list__item list__item-left">Back & Sides (tidy up)</li>
+                            <li class="list__item list__item-left">Haircut & Shave Package</li>
+                            <li class="list__item list__item-left">Hot Towel Shave</span></li>
+                            <li class="list__item list__item-left">Beard Trim</li>
+                            <li class="list__item list__item-left">Beard Restyle</li>
+                        </ul>
+                        <ul class="list list-right">
+                            <li class="list__item list__item-right">£14</li>
+                            <li class="list__item list__item-right">£16</li>
+                            <li class="list__item list__item-right">£10</li>
+                            <li class="list__item list__item-right">£20</li>
+                            <li class="list__item list__item-right">£10</li>
+                            <li class="list__item list__item-right">£8</li>
+                            <li class="list__item list__item-right">£12</li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="hours">
+                    <h2 class="heading-secondary">Opening Hours</h2>
+                    <div class="hours__box">
+                        <ul class="list list-left">
+                            <li class="list__item list__item-left">Monday</span></li>
+                            <li class="list__item list__item-left">Tuesday</li>
+                            <li class="list__item list__item-left">Wednesday</li>
+                            <li class="list__item list__item-left">Thursday</li>
+                            <li class="list__item list__item-left">Friday</li>
+                            <li class="list__item list__item-left">Saturday</li>
+                            <li class="list__item list__item-left">Sunday</li>
+                        </ul>
+                        <ul class="list list-right">
+                            <li class="list__item list__item-right">Closed</li>
+                            <li class="list__item list__item-right">9am &mdash; 7pm</li>
+                            <li class="list__item list__item-right">9am &mdash; 7pm</li>
+                            <li class="list__item list__item-right">9am &mdash; 7pm</li>
+                            <li class="list__item list__item-right">9am &mdash; 7pm</li>
+                            <li class="list__item list__item-right">9am &mdash; 6pm</li>
+                            <li class="list__item list__item-right">10am &mdash; 2pm</li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+
+            <div class="clients" id="clients">
+                <section class="gallery">
+                    <h2 class="heading-secondary">Gallery</h2>
+                    <div class="gallery__carousel">
+                        <div><img src="img/hair1.jpg" alt="img1" class="gallery__carousel-item"></div>
+                        <div><img src="img/hair2.jpg" alt="img2" class="gallery__carousel-item"></div>
+                        <div><img src="img/hair3.jpg" alt="img3" class="gallery__carousel-item"></div>
+                        <div><img src="img/hair4.jpg" alt="img4" class="gallery__carousel-item"></div>
+                        <div><img src="img/hair5.jpg" alt="img5" class="gallery__carousel-item"></div>
+                    </div>
+                </section>
+            </div>
+
+            <section class="reviews" id="reviews">
+                <h2 class="heading-secondary">Testimonials</h2>
+                <div class="reviews__box">
+                    <figure class="review">
+                        <blockquote class="review__text">
+                            I had a very good first experience at the salon. The staffs were friendly and helpful. I
+                            managed to get my hair cut without appointment and Sue did listen to what I wanted and
+                            got me the right length and style!
+                        </blockquote>
+                        <figcaption class="review__user">
+                            <div class="review__user-box">
+                                <p class="review__user-name">Mia Mila</p>
+                                <p class="review__user-date">7 months ago</p>
+                            </div>
+                            <div class="review__rating">
+                                <svg class="review__rating-star">
+                                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                                </svg>
+                                <svg class="review__rating-star">
+                                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                                </svg>
+                                <svg class="review__rating-star">
+                                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                                </svg>
+                                <svg class="review__rating-star">
+                                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                                </svg>
+                                <svg class="review__rating-star">
+                                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                                </svg>
+                            </div>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="review">
+                        <blockquote class="review__text">
+                            Have been getting my hair cut here for years, owners are fantastic family. Sue, her two
+                            sons H and Ali both great at cutting hair, beard trims, shaves. Friendly, welcoming and
+                            a fair price. Totally recommend.
+                        </blockquote>
+                        <figcaption class="review__user">
+                            <div class="review__user-box">
+                                <p class="review__user-name">Brad S</p>
+                                <p class="review__user-date">A year ago</p>
+                            </div>
+                            <div class="review__rating">
+                                <svg class="review__rating-star">
+                                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                                </svg>
+                                <svg class="review__rating-star">
+                                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                                </svg>
+                                <svg class="review__rating-star">
+                                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                                </svg>
+                                <svg class="review__rating-star">
+                                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                                </svg>
+                                <svg class="review__rating-star">
+                                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                                </svg>
+                            </div>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="review">
+                        <blockquote class="review__text">
+                            I finally found the perfect hair dressers in Haircombe! Not only do they listen to what
+                            you want and always manage to exceed my expectations. Myself and husband have been going
+                            for years and they are great with my kids too. I recommend to everyone.
+                        </blockquote>
+                        <figcaption class="review__user">
+                            <div class="review__user-box">
+                                <p class="review__user-name">Annmarie Hollands</p>
+                                <p class="review__user-date">A year ago</p>
+                            </div>
+                            <div class="review__rating">
+                                <svg class="review__rating-star">
+                                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                                </svg>
+                                <svg class="review__rating-star">
+                                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                                </svg>
+                                <svg class="review__rating-star">
+                                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                                </svg>
+                                <svg class="review__rating-star">
+                                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                                </svg>
+                                <svg class="review__rating-star">
+                                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                                </svg>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <a href="https://www.google.com/search?q=haircombe&rlz=1C1CHBF_en-GBGB919GB919&oq=haircombe&aqs=chrome..69i57j46j0l3.2351j0j1&sourceid=chrome&ie=UTF-8#lrd=0x47d8a839d83f1153:0x921070b70124bd3c,1,,,"
+                    class="btn">See all <span>&rarr;</span>
+                </a>
+            </section>
+
+            <div class="contact" id="contact">
+                <section class="location">
+                    <div id="map"></div>
+                </section>
+                <section class="contactus">
+                        <h2 class="heading-secondary">Get in touch</h2>
+                        <p class="paragraph">
+                            <svg class="contactus__icon contactus__icon-phone">
+                                <use xlink:href="img/sprite.svg#icon-phone"></use>
+                            </svg>
+                            02082930224
+                        </p>
+                        <p class="paragraph">
+                            <svg class="contactus__icon contactus__icon-message">
+                                <use xlink:href="img/sprite.svg#icon-message"></use>
+                            </svg>
+                            07881228588 ( text )
+                        </p>
+                        <p class="paragraph">
+                            <a href="https://en-gb.facebook.com/haircombe/">
+                                <svg class="contactus__icon contactus__icon-facebook">
+                                    <use xlink:href="img/sprite.svg#icon-facebook"></use>
+                                </svg>
+                                Facebook
+                            </a>
+                        </p>
+                        <p class="paragraph">
+                            <svg class="contactus__icon contactus__icon-location">
+                                <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+                            </svg>
+                            76 Westcombe Hill, London SE3 7DT
+                        </p>
+                </section>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__logo-box"> 
+                <img src="img/SVG/scissors.svg" alt="logo">
+            </div>
+            <div class="horizontal-line"></div>
+            <div class="footer__copyright">
+                <p>Built and designed by Kris Gergov &#169;</p>
+            </div>
+        </footer>
+
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+    <script defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvCYT4hOHHYNAc7W_yr_sS0kFQC3GrINY&callback=initMap"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
