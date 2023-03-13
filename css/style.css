@@ -380,14 +380,28 @@ body {
 .gallery__carousel {
   display: flex;
 }
+
+.gallery__carousel-item {
+  max-height: 25vw;
+  object-fit: cover;
+  object-position: center;
+}
 @media screen and (max-width: 93.75em) {
   .gallery {
     width: 125em;
+  }
+
+  .gallery__carousel-item {
+    max-height: 30vw;
   }
 }
 @media only screen and (max-width: 75em) {
   .gallery {
     width: 90%;
+  }
+
+  .gallery__carousel-item {
+    max-height: 80%;
   }
 }
 .reviews {
